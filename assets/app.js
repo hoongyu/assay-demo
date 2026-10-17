@@ -33,7 +33,7 @@
     'ck.lead': 'Accepts a LeRobot v3 dataset as a zip (meta/ and data/, videos not needed) and robomimic or RoboMIND HDF5 files. Joint rules only; the video judges need a GPU and are not part of this page.',
     'ck.drop.b': 'Drop a zip or HDF5 file, or click to choose', 'ck.drop.s': 'Up to 100 MB; processed only inside this page and gone when you close it',
     'ck.sample': 'Try the sample (cube stacking, 56 episodes)',
-    'ck.privacy': '<b>Your data stays on your computer.</b> Assay and its runtime live in this page. The first visit downloads about 26 MB; the browser caches it afterwards.',
+    'ck.privacy': '<b>Your data stays on your computer.</b> Assay and its runtime live in this page. The first visit downloads about 30 MB; the browser caches it afterwards.',
     'ck.engine.h': 'Engine', 'st.0': 'Load the runtime', 'st.1': 'Load numpy, pyarrow, h5py', 'st.2': 'Install Assay and warm up',
     'st.3': 'Read the data', 'st.4': 'Check every episode', 'st.5': 'Write the report',
     'rs.n': 'episodes', 'rs.doubt': 'Review: a person looks', 'rs.reject': 'Reject: evidence written down',
@@ -207,7 +207,7 @@
     $('#err').textContent = key ? map[key] : (lang === 'en' ? 'Assay could not finish: ' : '甄数没能跑完：') + msg;
   }
   function boot() {
-    try { engine.worker = new Worker('assets/worker.js?v=20261018', { type: 'module' }); } catch (e) { setEngine('error'); showError(String(e)); return; }
+    try { engine.worker = new Worker('assets/worker.js?v=20261018b', { type: 'module' }); } catch (e) { setEngine('error'); showError(String(e)); return; }
     setEngine('loading', 0);
     engine.worker.onerror = (ev) => { setEngine('error'); showError(ev.message || 'worker'); busy(false); };
     engine.worker.onmessage = (ev) => {

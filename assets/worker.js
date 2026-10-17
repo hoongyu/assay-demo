@@ -90,13 +90,25 @@ def step_render(lang):
     return json.dumps({"html": html, "rows": rows, "summary": summary}, ensure_ascii=False)
 `;
 
+// 网络不稳时 loadPackage 可能没载上也不报错：查一遍哪些没载上，退避重试，最多 3 次
+async function loadPackages(names) {
+  for (let attempt = 1; ; attempt++) {
+    const errors = [];
+    await py.loadPackage(names, { messageCallback: () => {}, errorCallback: (m) => errors.push(m) });
+    const missing = names.filter((n) => !(n in py.loadedPackages));
+    if (!missing.length) return;
+    if (attempt >= 3) throw new Error('packages not loaded: ' + missing.join(', ') + '; ' + errors.join(' | ').slice(-300));
+    await new Promise((r) => setTimeout(r, 1500 * attempt));
+  }
+}
+
 async function boot() {
   try {
     post({ type: 'stage', i: 0, s: 'start' });
     py = await loadPyodide({ indexURL: new URL('../pyodide/', self.location.href).href });
     post({ type: 'stage', i: 0, s: 'done' });
     post({ type: 'stage', i: 1, s: 'start' });
-    await py.loadPackage(['numpy', 'pyarrow', 'h5py', 'micropip']);
+    await loadPackages(['numpy', 'pyarrow', 'h5py', 'micropip']);
     post({ type: 'stage', i: 1, s: 'done' });
     post({ type: 'stage', i: 2, s: 'start' });
     py.globals.set('WHEEL', new URL('../wheels/assay-0.1.0-py3-none-any.whl', self.location.href).href);
