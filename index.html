@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>甄数 Assay · 示范数据体检台</title>
+<meta name="description" content="甄数（Assay）在浏览器里逐条检查机器人遥操作示范，判成合格、存疑、作废，写清原因和时间段。数据不离开你的电脑。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Noto+Sans+SC:wght@400;600;700&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="assets/app.css?v=20261018">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231D5DB0'/%3E%3Cpath d='M8 17l5 5 11-12' stroke='white' stroke-width='3.5' fill='none'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand">
+      <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" fill="#fff"/><rect x="6" y="24" width="6" height="10" fill="#2F7D4F"/><rect x="14" y="17" width="6" height="17" fill="#B07412"/><rect x="22" y="10" width="6" height="24" fill="#C0392B"/><path d="M8 14l4 4 9-10" stroke="#1D5DB0" stroke-width="3" fill="none"/></svg>
+      <div><b>甄数 Assay</b><span data-i="brand.sub">示范数据体检台</span></div>
+    </div>
+    <ul class="nav">
+      <li><a href="#overview" data-page="overview"><i>01</i><span data-i="nav.overview">两分钟看懂</span></a></li>
+      <li><a href="#examples" data-page="examples"><i>02</i><span data-i="nav.examples">电气操作示例</span></a></li>
+      <li><a href="#check" data-page="check"><i>03</i><span data-i="nav.check">体检我的数据</span></a></li>
+      <li><a href="#method" data-page="method"><i>04</i><span data-i="nav.method">方法与成绩</span></a></li>
+      <li><a href="#about" data-page="about"><i>05</i><span data-i="nav.about">关于</span></a></li>
+    </ul>
+    <div class="side-foot">
+      <div data-i="side.foot1">演示原型 · 全部用公开数据</div>
+      <div data-i="side.foot2">云创杯 AI+具身智能赛道参赛项目</div>
+      <a href="https://github.com/hoongyu/assay" target="_blank" rel="noopener">github.com/hoongyu/assay</a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="top">
+      <div class="crumb"><span data-i="crumb.root">甄数</span> / <b id="crumb-page">两分钟看懂</b></div>
+      <span class="pill loading" id="engine-pill"><span class="dot"></span><span id="engine-text" data-i="engine.idle">引擎准备中</span></span>
+      <span class="pill" data-i="pill.local">数据不出你的电脑</span>
+      <span class="pill lang" id="lang-btn" role="button" tabindex="0">EN</span>
+    </header>
+
+    <!-- 01 总览 -->
+    <section class="page" id="page-overview">
+      <p class="eyebrow" data-i="ov.eyebrow">两分钟看懂</p>
+      <h1 data-i="ov.h1">录完的每条遥操作示范，甄数逐条判成合格、存疑、作废，写清原因和出问题的时间段</h1>
+      <p class="lead" data-i="ov.lead">具身智能模型靠大量遥操作示范训练。问题示范混进训练集，会拖累训练出的策略；人工逐条看，成本随采集量一起涨。甄数先筛一遍，质检员只复看存疑的。</p>
+      <div class="grid g2">
+        <div class="block">
+          <div class="big num"><span data-count="17646">17,646</span><small data-i="ov.block.unit">条示范</small></div>
+          <p data-i="ov.block.text">30 个公开数据集，笔记本电脑 CPU 上 8 分半钟查完；其中 18 个是插拔、开关、阀门这类电气和工业操作。</p>
+        </div>
+        <div class="card">
+          <h3 data-i="ov.census.h">体检结果</h3>
+          <div class="bar tall" title="合格 15,887 / 存疑 1,690 / 作废 69"><span class="p" style="flex-grow:15887"></span><span class="d" style="flex-grow:1690"></span><span class="r" style="flex-grow:69"></span></div>
+          <div class="legend"><span><i style="background:var(--pass)"></i><span data-i="lab.pass">合格</span> <b class="num">15,887</b></span><span><i style="background:var(--doubt)"></i><span data-i="lab.doubt">存疑</span> <b class="num">1,690</b></span><span><i style="background:var(--reject)"></i><span data-i="lab.reject">作废</span> <b class="num">69</b></span></div>
+          <p class="note" style="margin:14px 0 0" data-i="ov.census.note">作废的 69 条全是不到 1 秒的示范，看关节数据就能核实；存疑的交给人复看。还查出 3 份数据集的元数据编号重复。</p>
+        </div>
+      </div>
+      <div class="grid g3 section">
+        <div class="card stat"><div class="k num"><em>99</em>/162</div><div class="t" data-i="ov.s1.t">北京人形真质检标签：“二次抓取”能比的示范里检出的条数</div><div class="s" data-i="ov.s1.s">参数在别的数据集上定，没在这批数据上调</div></div>
+        <div class="card stat"><div class="k num"><em>77</em>/93</div><div class="t" data-i="ov.s2.t">robomimic 真人示范：甄数标出的示范里，来自水平差的操作员的条数</div><div class="s" data-i="ov.s2.s">水平好的 200 条只标出 3 条</div></div>
+        <div class="card stat"><div class="k num"><em>0</em>/242</div><div class="t" data-i="ov.s3.t">RoboVAD 正常示范里被判作废的条数</div><div class="s" data-i="ov.s3.s">代价是漏检：有异常的 387 条里 140 条判了合格</div></div>
+      </div>
+      <div class="section card">
+        <h2 data-i="ov.scene.h">第一个落地场景：电力设施里机器人动手的操作</h2>
+        <p style="margin:0;color:var(--ink-2)" data-i="ov.scene.p">配电室已经在试用远程遥操作分合闸，每一步人确认后机器人才执行；这类作业每天都在产生示范数据。甄数先做配电房和变电站开关室的插拔、分合闸、旋阀门、按按钮。</p>
+        <div class="row" style="margin-top:16px">
+          <a class="btn" href="#check" data-i="ov.cta1">体检我的数据</a>
+          <a class="btn ghost" href="#examples" data-i="ov.cta2">看 7 份电气操作示例</a>
+        </div>
+      </div>
+      <p class="foot" data-i="ov.foot">所有数字都来自公开数据上的离线评测，项目还没有客户和试点。明细见“方法与成绩”。</p>
+    </section>
+
+    <!-- 02 示例 -->
+    <section class="page" id="page-examples">
+      <p class="eyebrow" data-i="ex.eyebrow">电气操作示例</p>
+      <h1 data-i="ex.h1">7 份公开的电气和工业操作示范，甄数的报告打开就能看</h1>
+      <p class="lead" data-i="ex.lead">都是 Hugging Face 上公开的 LeRobot 数据集，只用关节规则，参数没有调整。点一份，下面打开完整报告。</p>
+      <div class="ex-list" id="ex-list"></div>
+      <div class="viewer" id="ex-viewer">
+        <div class="viewer-head"><b id="ex-title">—</b><a class="btn ghost" id="ex-dl" download data-i="ex.dl">下载报告</a></div>
+        <iframe id="ex-frame" title="report"></iframe>
+      </div>
+    </section>
+
+    <!-- 03 体检我的数据 -->
+    <section class="page" id="page-check">
+      <p class="eyebrow" data-i="ck.eyebrow">体检我的数据</p>
+      <h1 data-i="ck.h1">把数据拖进来，甄数在你的浏览器里查，文件不上传</h1>
+      <p class="lead" data-i="ck.lead">支持 LeRobot v3 数据集打成的 zip（含 meta/ 和 data/，不需要视频），以及 robomimic、RoboMIND 的 HDF5 文件。只跑关节规则；视频评判要显卡，不在网页里。</p>
+      <div class="grid g2">
+        <div>
+          <label class="drop" id="drop">
+            <div class="ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 16V4M6 10l6-6 6 6M4 20h16"/></svg></div>
+            <p><b data-i="ck.drop.b">拖入 zip 或 HDF5，或点这里选文件</b></p>
+            <small data-i="ck.drop.s">100 MB 以内；文件只在本页面里处理，关掉页面就没了</small>
+            <input type="file" id="file" accept=".zip,.hdf5,.h5" hidden>
+          </label>
+          <div class="row" style="margin-top:12px">
+            <button class="btn" id="sample-btn" data-i="ck.sample">用样例数据试一下（叠方块 56 条）</button>
+          </div>
+          <p class="note" style="margin-top:14px" data-i="ck.privacy"><b>数据不出你的电脑。</b>甄数的程序和运行环境都在本页面里，第一次打开要下载约 26 MB，之后浏览器会缓存。</p>
+        </div>
+        <div class="card">
+          <h3 data-i="ck.engine.h">引擎</h3>
+          <div class="steps" id="steps">
+            <div class="step" data-step="0"><i>1</i><span data-i="st.0">载入运行环境</span><span class="tm"></span></div>
+            <div class="step" data-step="1"><i>2</i><span data-i="st.1">载入 numpy、pyarrow、h5py</span><span class="tm"></span></div>
+            <div class="step" data-step="2"><i>3</i><span data-i="st.2">安装甄数并预热</span><span class="tm"></span></div>
+            <div class="step" data-step="3"><i>4</i><span data-i="st.3">读入数据</span><span class="tm"></span></div>
+            <div class="step" data-step="4"><i>5</i><span data-i="st.4">逐条检查</span><span class="tm"></span></div>
+            <div class="step" data-step="5"><i>6</i><span data-i="st.5">出报告</span><span class="tm"></span></div>
+          </div>
+          <div class="progress"><span id="prog"></span></div>
+          <small style="color:var(--muted)" id="prog-text"></small>
+          <div class="err-box" id="err"></div>
+        </div>
+      </div>
+      <div id="result" style="display:none" class="section">
+        <div class="grid g4 result-tiles">
+          <div class="card stat"><div class="k num" id="r-n">0</div><div class="t" data-i="rs.n">条示范</div></div>
+          <div class="card stat pass"><div class="k num" id="r-p">0</div><div class="t" data-i="lab.pass">合格</div></div>
+          <div class="card stat doubt"><div class="k num" id="r-d">0</div><div class="t" data-i="rs.doubt">存疑：交给人复看</div></div>
+          <div class="card stat reject"><div class="k num" id="r-r">0</div><div class="t" data-i="rs.reject">作废：写明依据</div></div>
+        </div>
+        <div class="grid g2 section">
+          <div class="card"><h3 data-i="rs.causes">问题分布（按条数）</h3><div class="hbars" id="r-causes"></div></div>
+          <div class="card"><h3 data-i="rs.more">这批数据</h3><div id="r-meta" style="font-size:14px;color:var(--ink-2)"></div>
+            <div class="row" style="margin-top:14px"><a class="btn" id="dl-html" download="assay_report.html" data-i="rs.dlh">下载报告（HTML）</a><a class="btn ghost" id="dl-json" download="assay_report.json" data-i="rs.dlj">下载逐条明细（JSON）</a></div></div>
+        </div>
+        <div class="viewer"><div class="viewer-head"><b data-i="rs.report">甄数质检报告</b><span class="tag info" data-i="rs.offline">断网也能打开</span></div><iframe id="r-frame" title="report"></iframe></div>
+      </div>
+    </section>
+
+    <!-- 04 方法与成绩 -->
+    <section class="page" id="page-method">
+      <p class="eyebrow" data-i="me.eyebrow">方法与成绩</p>
+      <h1 data-i="me.h1">先定评测再写规则：阈值只在开发数据上定，所有比例写出分母</h1>
+      <div class="layers">
+        <div class="layer"><div class="no">1</div><h3 data-i="me.l1.h">客观硬规则</h3><p data-i="me.l1.p">读数缺失、时间戳倒退、示范过短：命中一条就作废</p></div>
+        <div class="layer"><div class="no">2</div><h3 data-i="me.l2.h">同任务对比的关节规则</h3><p data-i="me.l2.p">停顿过长、空录、没做完、多余动作、二次抓取、动作不流畅；和同一任务的那批示范比，不用固定阈值</p></div>
+        <div class="layer off"><div class="no">3</div><h3 data-i="me.l3.h">零样本视频评判</h3><p data-i="me.l3.p">Robometer-4B、TOPReward 查指令不符和物体掉落；要显卡，网页里不跑</p></div>
+        <div class="layer"><div class="no">4</div><h3 data-i="me.l4.h">保守的判定融合</h3><p data-i="me.l4.p">硬规则命中，或 3 个独立来源中有 2 个指向同一处问题，才判作废；其余有发现的判存疑</p></div>
+      </div>
+      <div class="grid g2 section">
+        <div class="card">
+          <h2 data-i="me.d.h">robomimic：甄数标出的比例，按操作员水平分</h2>
+          <div class="hbars" id="chart-d"></div>
+          <p class="foot" style="margin-top:12px" data-i="me.d.foot">每档 100 条真人示范（Square、Can 两个任务各 300 条）。示范都完成了任务，差在动作质量，所以只判存疑。参数没改，第一次跑。</p>
+        </div>
+        <div class="card">
+          <h2 data-i="me.c.h">北京人形真质检标签（RoboMIND）</h2>
+          <div class="hbars" id="chart-c"></div>
+          <p class="foot" style="margin-top:12px" data-i="me.c.foot">二次抓取的参数在 RoboVAD 上定，没在 RoboMIND 上调。常用的 3 个平顺度指标在这批标签上不比瞎猜好，没用上。</p>
+        </div>
+      </div>
+      <div class="section card">
+        <h2 data-i="me.lim.h">还不能说的</h2>
+        <ul class="plain">
+          <li data-i="me.lim.1">还没测过：用甄数筛过的数据训出的策略是不是更好。robomimic 上的下游实验已经备好，复赛前出结果。</li>
+          <li data-i="me.lim.2">体检里存疑的 1,690 条没有标签可核，还没抽查。</li>
+          <li data-i="me.lim.3">视频模型会误报：叠得太正、手臂遮挡都会骗过它们。</li>
+          <li data-i="me.lim.4">动作质量只抓到一部分：北京人形标签上“动作不流畅”只检出 14%。</li>
+          <li data-i="me.lim.5">电力设施的示范数据我们还没有，公开的电力操作数据集也没找到。</li>
+        </ul>
+      </div>
+      <p class="foot"><span data-i="me.src">评测记录和复现命令都在代码仓库：</span><a href="https://github.com/hoongyu/assay" target="_blank" rel="noopener">github.com/hoongyu/assay</a></p>
+    </section>
+
+    <!-- 05 关于 -->
+    <section class="page" id="page-about">
+      <p class="eyebrow" data-i="ab.eyebrow">关于</p>
+      <h1 data-i="ab.h1">Origo（知源）团队，4 人，都在柏林工业大学读硕士</h1>
+      <div class="grid g2">
+        <div class="card">
+          <h3 data-i="ab.what.h">这是什么</h3>
+          <p style="margin:0;color:var(--ink-2)" data-i="ab.what.p">甄数（Assay）是具身智能遥操作示范数据的自动质检软件，代码以 Apache-2.0 开源。这个网页是演示原型：甄数的 Python 程序通过 Pyodide 在你的浏览器里运行，和命令行版是同一份代码。</p>
+        </div>
+        <div class="card">
+          <h3 data-i="ab.lic.h">授权和出处</h3>
+          <ul class="plain">
+            <li data-i="ab.lic.1">甄数和本网页：Apache-2.0</li>
+            <li data-i="ab.lic.2">Pyodide 运行环境：MPL-2.0；numpy、pandas、h5py：BSD；pyarrow：Apache-2.0</li>
+            <li data-i="ab.lic.3">样例数据 lerobot/svla_so100_stacking：Apache-2.0</li>
+            <li data-i="ab.lic.4">7 份示例报告由 Hugging Face 上的公开数据集生成，授权为 Apache-2.0 或 MIT，网页里只放报告，不放原始数据</li>
+          </ul>
+        </div>
+      </div>
+      <p class="foot"><span data-i="ab.contact">问题和建议：</span><a href="https://github.com/hoongyu/assay/issues" target="_blank" rel="noopener">github.com/hoongyu/assay/issues</a></p>
+    </section>
+  </div>
+</div>
+<script src="assets/app.js?v=20261018"></script>
+</body>
+</html>

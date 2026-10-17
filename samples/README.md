@@ -1,0 +1,1 @@
+`svla_so100_stacking.zip` holds `meta/` and `data/` (joint data, no videos) of the public dataset [lerobot/svla_so100_stacking](https://huggingface.co/datasets/lerobot/svla_so100_stacking), licensed Apache-2.0. Unmodified.

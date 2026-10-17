@@ -1,0 +1,770 @@
+[
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000000",
+    "task": "Switch on the power supply",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "jerky",
+        "cause": "动作不流畅",
+        "t0": 0.0,
+        "t1": 19.6,
+        "score": 1.9153094462540716,
+        "evidence": "用了 19.6 秒，是同任务 50 条示范中位数的 1.9 倍，像是中途犹豫、磕磕绊绊",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "Took 19.6 s; against the task's 50 episodes that is 1.9 times the median, as if the operator hesitated or fumbled"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000001",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000002",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000003",
+    "task": "Switch on the power supply",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "jerky",
+        "cause": "动作不流畅",
+        "t0": 0.0,
+        "t1": 17.466666666666665,
+        "score": 1.7068403908794785,
+        "evidence": "用了 17.5 秒，是同任务 50 条示范中位数的 1.7 倍，像是中途犹豫、磕磕绊绊",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "Took 17.5 s; against the task's 50 episodes that is 1.7 times the median, as if the operator hesitated or fumbled"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000004",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000005",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000006",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000007",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000008",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000009",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000010",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000011",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000012",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000013",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000014",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000015",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000016",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000017",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000018",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000019",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000020",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000021",
+    "task": "Switch on the power supply",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "jerky",
+        "cause": "动作不流畅",
+        "t0": 0.0,
+        "t1": 18.966666666666665,
+        "score": 1.8534201954397391,
+        "evidence": "用了 19.0 秒，是同任务 50 条示范中位数的 1.9 倍，像是中途犹豫、磕磕绊绊",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "Took 19.0 s; against the task's 50 episodes that is 1.9 times the median, as if the operator hesitated or fumbled"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000022",
+    "task": "Switch on the power supply",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "jerky",
+        "cause": "动作不流畅",
+        "t0": 0.0,
+        "t1": 18.9,
+        "score": 1.846905537459283,
+        "evidence": "用了 18.9 秒，是同任务 50 条示范中位数的 1.8 倍，像是中途犹豫、磕磕绊绊",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "Took 18.9 s; against the task's 50 episodes that is 1.8 times the median, as if the operator hesitated or fumbled"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000023",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000024",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000025",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000026",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000027",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000028",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000029",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000030",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000031",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000032",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000033",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000034",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000035",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000036",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000037",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000038",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000039",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000040",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000041",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000042",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000043",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000044",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000045",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000046",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000047",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000048",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "RohanVasa__Switch_On_20260725_160650/ep000049",
+    "task": "Switch on the power supply",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  }
+]

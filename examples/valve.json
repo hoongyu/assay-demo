@@ -1,0 +1,500 @@
+[
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000000",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000001",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000002",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000003",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000004",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000005",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000006",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000007",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000008",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000009",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000010",
+    "task": "pick up the flask",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 15.0,
+        "score": 2.0,
+        "evidence": "夹爪开合了 4 次（张开、合上各算一次），同任务 30 条示范常见不超过 2 次，像是抓了不止一回；换档在 3.4、6.2、6.8、12.5 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          3.3666666666666667,
+          6.166666666666667,
+          6.766666666666667,
+          12.5
+        ],
+        "evidence_en": "The gripper switched between open and closed 4 times (each open or close counts once); the task's 30 episodes usually switch at most 2 times, so it looks like more than one grasp. Switches at 3.4, 6.2, 6.8, 12.5 s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000011",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000012",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000013",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000014",
+    "task": "pick up the flask",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "long_pause",
+        "cause": "停顿过长",
+        "t0": 10.466666666666667,
+        "t1": 14.6,
+        "score": 4.133333333333334,
+        "evidence": "关节几乎不动，停了 4.1 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "The joints barely moved for 4.1 s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000015",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000016",
+    "task": "pick up the flask",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 15.0,
+        "score": 2.0,
+        "evidence": "夹爪开合了 4 次（张开、合上各算一次），同任务 30 条示范常见不超过 2 次，像是抓了不止一回；换档在 2.6、6.5、8.1、9.1 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          2.6,
+          6.5,
+          8.1,
+          9.133333333333333
+        ],
+        "evidence_en": "The gripper switched between open and closed 4 times (each open or close counts once); the task's 30 episodes usually switch at most 2 times, so it looks like more than one grasp. Switches at 2.6, 6.5, 8.1, 9.1 s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000017",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000018",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000019",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000020",
+    "task": "pick up the flask",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "long_pause",
+        "cause": "停顿过长",
+        "t0": 11.366666666666667,
+        "t1": 14.4,
+        "score": 3.033333333333333,
+        "evidence": "关节几乎不动，停了 3.0 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "The joints barely moved for 3.0 s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000021",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000022",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000023",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000024",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000025",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000026",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000027",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000028",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "plzsay__turn_valve_20260915_213218/ep000029",
+    "task": "pick up the flask",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  }
+]

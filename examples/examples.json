@@ -1,0 +1,152 @@
+[
+ {
+  "id": "plug",
+  "zh": "插头插入",
+  "en": "Plug insertion",
+  "robot": "SO-101",
+  "repo": "777im/so101_pick_plug_insert_v5_v6",
+  "license": "Apache-2.0",
+  "n": 72,
+  "pass": 71,
+  "doubt": 1,
+  "reject": 0,
+  "causes": [
+   [
+    "停顿过长",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "socket",
+  "zh": "插座插头",
+  "en": "Socket and plug",
+  "robot": "GIM arm",
+  "repo": "RDLwicked/gim_arm_socket_plug_teleop_3cam_joint",
+  "license": "Apache-2.0",
+  "n": 376,
+  "pass": 334,
+  "doubt": 42,
+  "reject": 0,
+  "causes": [
+   [
+    "动作不流畅",
+    41
+   ],
+   [
+    "二次抓取",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "switch",
+  "zh": "打开开关",
+  "en": "Switch on",
+  "robot": "SO-101",
+  "repo": "RohanVasa/Switch_On_20260725_160650",
+  "license": "Apache-2.0",
+  "n": 50,
+  "pass": 46,
+  "doubt": 4,
+  "reject": 0,
+  "causes": [
+   [
+    "动作不流畅",
+    4
+   ]
+  ]
+ },
+ {
+  "id": "valve",
+  "zh": "旋阀门",
+  "en": "Turn a valve",
+  "robot": "SO-101",
+  "repo": "plzsay/turn_valve_20260915_213218",
+  "license": "Apache-2.0",
+  "n": 30,
+  "pass": 26,
+  "doubt": 4,
+  "reject": 0,
+  "causes": [
+   [
+    "二次抓取",
+    2
+   ],
+   [
+    "停顿过长",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "battery",
+  "zh": "装电池",
+  "en": "Insert a battery",
+  "robot": "ALOHA",
+  "repo": "lerobot/aloha_static_battery",
+  "license": "Apache-2.0",
+  "n": 49,
+  "pass": 47,
+  "doubt": 2,
+  "reject": 0,
+  "causes": [
+   [
+    "没做完",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "assembly",
+  "zh": "工业装配",
+  "en": "Industrial assembly",
+  "robot": "Vega",
+  "repo": "rocochallenge2025/rocochallenge2026_Industrial_Assembly",
+  "license": "MIT",
+  "n": 200,
+  "pass": 162,
+  "doubt": 38,
+  "reject": 0,
+  "causes": [
+   [
+    "二次抓取",
+    37
+   ],
+   [
+    "多余动作",
+    1
+   ],
+   [
+    "没做完",
+    1
+   ]
+  ]
+ },
+ {
+  "id": "cable",
+  "zh": "线缆走线",
+  "en": "Cable routing",
+  "robot": "Franka",
+  "repo": "lerobot/berkeley_cable_routing",
+  "license": "Apache-2.0",
+  "n": 1647,
+  "pass": 1337,
+  "doubt": 241,
+  "reject": 69,
+  "causes": [
+   [
+    "动作不流畅",
+    222
+   ],
+   [
+    "多余动作",
+    145
+   ],
+   [
+    "数据异常",
+    69
+   ]
+  ]
+ }
+]

@@ -1,0 +1,820 @@
+[
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000000",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000001",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000002",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000003",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000004",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000005",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000006",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000007",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000008",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000009",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000010",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000011",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000012",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000013",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000014",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000015",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000016",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000017",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000018",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000019",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000020",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000021",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000022",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000023",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000024",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000025",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000026",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000027",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000028",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000029",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000030",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000031",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000032",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000033",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000034",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000035",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000036",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000037",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000038",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000039",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000040",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000041",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000042",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000043",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "end_pose",
+        "cause": "没做完",
+        "t0": 11.0,
+        "t1": 12.0,
+        "score": 3.1095885343395486,
+        "evidence": "最后停的姿态和同任务 49 条示范的常见收尾姿态差得远：motor_10 差出的距离是示范之间常见出入的 3.1 倍，像是没做完就停了",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "The final pose is far from the usual end pose of the task's 49 episodes: motor_10 is off by 3.1 times the usual spread, as if it stopped before finishing"
+      }
+    ],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000044",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000045",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000046",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000047",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "lerobot__aloha_static_battery/ep000048",
+    "task": "Place the battery into the slot of the remote controller.",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "end_pose",
+        "cause": "没做完",
+        "t0": 11.0,
+        "t1": 12.0,
+        "score": 3.5061727669580423,
+        "evidence": "最后停的姿态和同任务 49 条示范的常见收尾姿态差得远：motor_1 差出的距离是示范之间常见出入的 3.5 倍，像是没做完就停了",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "The final pose is far from the usual end pose of the task's 49 episodes: motor_1 is off by 3.5 times the usual spread, as if it stopped before finishing"
+      }
+    ],
+    "not_checked": {
+      "regrasp": "认不出夹爪通道",
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "regrasp": "No gripper channel found",
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  }
+]

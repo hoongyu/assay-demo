@@ -1,0 +1,4328 @@
+[
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000000",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000001",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000002",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000003",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000004",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.3,
+        "score": 2.0,
+        "evidence": "左手夹爪开合了 13 次（张开、合上各算一次），同任务 200 条示范常见不超过 11 次，像是抓了不止一回；换档在 2.1、7.1、15.4、15.6、18.0、26.0、28.5、38.5、41.3、44.5、47.0、52.2...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          2.1,
+          7.1,
+          15.4,
+          15.6,
+          18.0,
+          26.0,
+          28.5,
+          38.5,
+          41.3,
+          44.5,
+          47.0,
+          52.2,
+          55.2
+        ],
+        "evidence_en": "The left gripper switched between open and closed 13 times (each open or close counts once); the task's 200 episodes usually switch at most 11 times, so it looks like more than one grasp. Switches at 2.1, 7.1, 15.4, 15.6, 18.0, 26.0, 28.5, 38.5, 41.3, 44.5, 47.0, 52.2 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000005",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000006",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000007",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000008",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.1、19.2、22.2、25.6、26.0、29.9、31.7、33.4、33.8...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.1,
+          19.2,
+          22.2,
+          25.6,
+          26.0,
+          29.9,
+          31.7,
+          33.4,
+          33.8,
+          36.2,
+          38.3,
+          40.1,
+          41.3,
+          42.6,
+          44.8,
+          48.8,
+          51.1,
+          52.8,
+          53.2,
+          56.9
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.1, 19.2, 22.2, 25.6, 26.0, 29.9, 31.7, 33.4, 33.8 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000009",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000010",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000011",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.4、18.1、19.4、22.1、25.7、26.2、29.8、31.6、33.3、33.9...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.4,
+          18.1,
+          19.4,
+          22.1,
+          25.7,
+          26.2,
+          29.8,
+          31.6,
+          33.3,
+          33.9,
+          36.2,
+          38.4,
+          40.0,
+          40.8,
+          42.7,
+          45.0,
+          46.5,
+          51.0,
+          52.6,
+          52.9,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.4, 18.1, 19.4, 22.1, 25.7, 26.2, 29.8, 31.6, 33.3, 33.9 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000012",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000013",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.8,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.4、19.6、22.4、25.8、26.2、30.1、32.1、33.6、34.2...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.4,
+          19.6,
+          22.4,
+          25.8,
+          26.2,
+          30.1,
+          32.1,
+          33.6,
+          34.2,
+          36.2,
+          38.7,
+          40.6,
+          41.1,
+          43.0,
+          45.1,
+          46.8,
+          51.2,
+          52.9,
+          53.2,
+          57.1
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.4, 19.6, 22.4, 25.8, 26.2, 30.1, 32.1, 33.6, 34.2 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000014",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000015",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000016",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000017",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.0、19.4、22.2、25.6、26.0、29.7、31.5、33.1、33.8...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.0,
+          19.4,
+          22.2,
+          25.6,
+          26.0,
+          29.7,
+          31.5,
+          33.1,
+          33.8,
+          35.8,
+          38.3,
+          40.2,
+          40.8,
+          42.5,
+          44.5,
+          48.4,
+          50.6,
+          52.3,
+          52.9,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.0, 19.4, 22.2, 25.6, 26.0, 29.7, 31.5, 33.1, 33.8 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000018",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000019",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000020",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000021",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000022",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000023",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000024",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000025",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000026",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000027",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000028",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000029",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000030",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000031",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000032",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000033",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.0、19.2、22.0、25.6、26.1、29.0、32.0、33.7、34.4...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.0,
+          19.2,
+          22.0,
+          25.6,
+          26.1,
+          29.0,
+          32.0,
+          33.7,
+          34.4,
+          36.5,
+          38.7,
+          40.6,
+          41.0,
+          42.9,
+          44.9,
+          46.6,
+          51.1,
+          52.7,
+          53.2,
+          56.9
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.0, 19.2, 22.0, 25.6, 26.1, 29.0, 32.0, 33.7, 34.4 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000034",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000035",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000036",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000037",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000038",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000039",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000040",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000041",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000042",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 62.9,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.3、19.4、22.3、25.7、26.1、29.8、31.7、33.5、36.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.3,
+          19.4,
+          22.3,
+          25.7,
+          26.1,
+          29.8,
+          31.7,
+          33.5,
+          36.7,
+          37.2,
+          39.5,
+          39.8,
+          40.2,
+          45.1,
+          47.3,
+          48.8,
+          53.3,
+          55.0,
+          55.4,
+          59.2
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.3, 19.4, 22.3, 25.7, 26.1, 29.8, 31.7, 33.5, 36.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000043",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000044",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.0、19.2、22.0、25.6、26.0、29.8、31.8、33.1、33.8...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.0,
+          19.2,
+          22.0,
+          25.6,
+          26.0,
+          29.8,
+          31.8,
+          33.1,
+          33.8,
+          36.1,
+          38.2,
+          40.0,
+          40.5,
+          42.4,
+          44.7,
+          48.4,
+          50.6,
+          52.5,
+          52.9,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.0, 19.2, 22.0, 25.6, 26.0, 29.8, 31.8, 33.1, 33.8 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000045",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000046",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000047",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.9,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.7、19.4、22.4、25.8、26.4、30.0、31.9、33.6、34.5...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.7,
+          19.4,
+          22.4,
+          25.8,
+          26.4,
+          30.0,
+          31.9,
+          33.6,
+          34.5,
+          36.5,
+          38.9,
+          40.7,
+          41.6,
+          43.1,
+          45.2,
+          46.9,
+          51.3,
+          53.0,
+          53.4,
+          57.2
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.7, 19.4, 22.4, 25.8, 26.4, 30.0, 31.9, 33.6, 34.5 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000048",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000049",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000050",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000051",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000052",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000053",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000054",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.1,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.5、17.0、18.0、19.3、22.0、25.6、26.1、29.7、31.6、33.2、33.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.5,
+          17.0,
+          18.0,
+          19.3,
+          22.0,
+          25.6,
+          26.1,
+          29.7,
+          31.6,
+          33.2,
+          33.7,
+          36.0,
+          38.3,
+          40.0,
+          40.4,
+          42.2,
+          44.3,
+          48.2,
+          50.4,
+          52.3,
+          52.7,
+          56.4
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.5, 17.0, 18.0, 19.3, 22.0, 25.6, 26.1, 29.7, 31.6, 33.2, 33.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000055",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000056",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000057",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000058",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000059",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000060",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000061",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.1、19.4、22.4、25.8、26.2、29.9、31.8、33.4、34.3...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.1,
+          19.4,
+          22.4,
+          25.8,
+          26.2,
+          29.9,
+          31.8,
+          33.4,
+          34.3,
+          36.1,
+          38.6,
+          40.5,
+          40.9,
+          42.7,
+          45.0,
+          46.5,
+          50.9,
+          52.8,
+          53.2,
+          57.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.1, 19.4, 22.4, 25.8, 26.2, 29.9, 31.8, 33.4, 34.3 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000062",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000063",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000064",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.4,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.4、19.5、22.5、25.9、26.4、29.0、31.8、33.4、33.9...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.4,
+          19.5,
+          22.5,
+          25.9,
+          26.4,
+          29.0,
+          31.8,
+          33.4,
+          33.9,
+          36.1,
+          38.4,
+          39.9,
+          40.7,
+          42.5,
+          44.8,
+          46.5,
+          50.9,
+          52.6,
+          52.9,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.4, 19.5, 22.5, 25.9, 26.4, 29.0, 31.8, 33.4, 33.9 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000065",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000066",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000067",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000068",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000069",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000070",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.2、19.4、22.3、25.7、27.4、29.8、31.6、33.2、33.9...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.2,
+          19.4,
+          22.3,
+          25.7,
+          27.4,
+          29.8,
+          31.6,
+          33.2,
+          33.9,
+          36.2,
+          38.4,
+          40.2,
+          40.9,
+          42.6,
+          45.0,
+          48.9,
+          51.0,
+          52.8,
+          53.3,
+          57.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.2, 19.4, 22.3, 25.7, 27.4, 29.8, 31.6, 33.2, 33.9 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000071",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000072",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000073",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000074",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000075",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000076",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000077",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000078",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000079",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000080",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000081",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000082",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000083",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000084",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、17.9、19.3、22.1、25.5、26.0、30.5、32.5、34.2、35.2...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          17.9,
+          19.3,
+          22.1,
+          25.5,
+          26.0,
+          30.5,
+          32.5,
+          34.2,
+          35.2,
+          37.1,
+          39.5,
+          41.2,
+          41.7,
+          43.6,
+          45.7,
+          47.4,
+          51.9,
+          53.6,
+          54.1,
+          57.8
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 17.9, 19.3, 22.1, 25.5, 26.0, 30.5, 32.5, 34.2, 35.2 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000085",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000086",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.5、17.0、18.1、19.4、22.2、25.8、26.2、30.4、32.3、34.0、35.0...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.5,
+          17.0,
+          18.1,
+          19.4,
+          22.2,
+          25.8,
+          26.2,
+          30.4,
+          32.3,
+          34.0,
+          35.0,
+          36.9,
+          39.3,
+          40.9,
+          41.7,
+          43.4,
+          45.8,
+          47.5,
+          51.8,
+          53.2,
+          53.9,
+          57.8
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.5, 17.0, 18.1, 19.4, 22.2, 25.8, 26.2, 30.4, 32.3, 34.0, 35.0 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000087",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000088",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000089",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000090",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000091",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.2,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.3、19.3、22.6、26.2、26.6、30.3、32.3、33.8、34.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.3,
+          19.3,
+          22.6,
+          26.2,
+          26.6,
+          30.3,
+          32.3,
+          33.8,
+          34.7,
+          36.5,
+          39.0,
+          40.7,
+          41.4,
+          43.0,
+          45.2,
+          47.0,
+          51.5,
+          53.2,
+          53.5,
+          57.4
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.3, 19.3, 22.6, 26.2, 26.6, 30.3, 32.3, 33.8, 34.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000092",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 63.5,
+        "score": 2.0,
+        "evidence": "左手夹爪开合了 13 次（张开、合上各算一次），同任务 200 条示范常见不超过 11 次，像是抓了不止一回；换档在 2.1、7.1、18.2、26.0、28.5、40.2、40.4、40.7、44.5、47.7、50.2、55.5...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          2.1,
+          7.1,
+          18.2,
+          26.0,
+          28.5,
+          40.2,
+          40.4,
+          40.7,
+          44.5,
+          47.7,
+          50.2,
+          55.5,
+          58.5
+        ],
+        "evidence_en": "The left gripper switched between open and closed 13 times (each open or close counts once); the task's 200 episodes usually switch at most 11 times, so it looks like more than one grasp. Switches at 2.1, 7.1, 18.2, 26.0, 28.5, 40.2, 40.4, 40.7, 44.5, 47.7, 50.2, 55.5 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000093",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.0、19.2、22.2、25.6、26.0、29.8、31.7、33.3、34.3...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.0,
+          19.2,
+          22.2,
+          25.6,
+          26.0,
+          29.8,
+          31.7,
+          33.3,
+          34.3,
+          36.4,
+          38.6,
+          40.4,
+          40.9,
+          42.8,
+          45.1,
+          46.6,
+          51.0,
+          52.6,
+          53.1,
+          56.9
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.0, 19.2, 22.2, 25.6, 26.0, 29.8, 31.7, 33.3, 34.3 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000094",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000095",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "extra_motion",
+        "cause": "多余动作",
+        "t0": 0.0,
+        "t1": 63.7,
+        "score": 2.0504014542685502,
+        "evidence": "关节走过的路程是同任务 200 条示范中位数的 2.1 倍",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "Compared with the task's 200 episodes, the joints traveled 2.1 times the median path"
+      },
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 63.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.4、18.2、19.3、22.3、25.7、26.1、29.9、31.8、33.4、36.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.4,
+          18.2,
+          19.3,
+          22.3,
+          25.7,
+          26.1,
+          29.9,
+          31.8,
+          33.4,
+          36.1,
+          37.2,
+          39.9,
+          40.3,
+          40.5,
+          45.9,
+          47.9,
+          49.6,
+          54.4,
+          55.8,
+          56.2,
+          60.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.4, 18.2, 19.3, 22.3, 25.7, 26.1, 29.9, 31.8, 33.4, 36.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000096",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000097",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000098",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "end_pose",
+        "cause": "没做完",
+        "t0": 59.4,
+        "t1": 60.4,
+        "score": 3.148226189131923,
+        "evidence": "最后停的姿态和同任务 200 条示范的常见收尾姿态差得远：left_jvel_6 差出的距离是示范之间常见出入的 3.1 倍，像是没做完就停了",
+        "hard": false,
+        "source": "joints",
+        "moments": [],
+        "evidence_en": "The final pose is far from the usual end pose of the task's 200 episodes: left_jvel_6 is off by 3.1 times the usual spread, as if it stopped before finishing"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000099",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000100",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000101",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000102",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000103",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000104",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000105",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000106",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.2,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.5、18.3、19.2、22.2、25.6、26.0、29.8、31.7、33.3、34.0...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.5,
+          18.3,
+          19.2,
+          22.2,
+          25.6,
+          26.0,
+          29.8,
+          31.7,
+          33.3,
+          34.0,
+          36.3,
+          38.4,
+          40.2,
+          40.6,
+          42.5,
+          44.5,
+          46.2,
+          50.6,
+          52.3,
+          52.6,
+          56.5
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.5, 18.3, 19.2, 22.2, 25.6, 26.0, 29.8, 31.7, 33.3, 34.0 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000107",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000108",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000109",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.1、19.2、22.0、25.6、26.0、30.2、32.0、33.6、34.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.1,
+          19.2,
+          22.0,
+          25.6,
+          26.0,
+          30.2,
+          32.0,
+          33.6,
+          34.1,
+          36.4,
+          38.6,
+          40.5,
+          41.6,
+          42.8,
+          44.9,
+          46.6,
+          51.0,
+          52.7,
+          53.0,
+          56.8
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.1, 19.2, 22.0, 25.6, 26.0, 30.2, 32.0, 33.6, 34.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000110",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000111",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000112",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000113",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000114",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000115",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000116",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000117",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000118",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.1、19.3、21.9、25.5、26.0、29.6、31.4、33.1、33.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.1,
+          19.3,
+          21.9,
+          25.5,
+          26.0,
+          29.6,
+          31.4,
+          33.1,
+          33.7,
+          36.0,
+          38.2,
+          39.8,
+          40.6,
+          42.3,
+          44.7,
+          48.6,
+          50.9,
+          52.6,
+          53.0,
+          56.8
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.1, 19.3, 21.9, 25.5, 26.0, 29.6, 31.4, 33.1, 33.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000119",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000120",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000121",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.9,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.2、19.3、22.1、25.7、26.1、29.9、31.8、33.7、34.4...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.2,
+          19.3,
+          22.1,
+          25.7,
+          26.1,
+          29.9,
+          31.8,
+          33.7,
+          34.4,
+          36.3,
+          38.7,
+          40.2,
+          41.1,
+          42.8,
+          45.4,
+          46.9,
+          51.3,
+          53.0,
+          53.3,
+          57.2
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.2, 19.3, 22.1, 25.7, 26.1, 29.9, 31.8, 33.7, 34.4 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000122",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.3,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.3、18.4、19.5、22.6、26.0、26.5、30.6、32.4、34.0、34.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.3,
+          18.4,
+          19.5,
+          22.6,
+          26.0,
+          26.5,
+          30.6,
+          32.4,
+          34.0,
+          34.7,
+          36.7,
+          39.2,
+          41.0,
+          41.7,
+          43.5,
+          45.5,
+          47.2,
+          51.7,
+          53.3,
+          53.8,
+          57.4
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.3, 18.4, 19.5, 22.6, 26.0, 26.5, 30.6, 32.4, 34.0, 34.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000123",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000124",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000125",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.5、17.0、18.0、19.4、22.0、25.6、27.3、30.9、32.8、34.4、35.4...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.5,
+          17.0,
+          18.0,
+          19.4,
+          22.0,
+          25.6,
+          27.3,
+          30.9,
+          32.8,
+          34.4,
+          35.4,
+          37.2,
+          39.7,
+          41.6,
+          42.2,
+          43.8,
+          45.9,
+          47.6,
+          52.1,
+          53.8,
+          54.2,
+          57.9
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.5, 17.0, 18.0, 19.4, 22.0, 25.6, 27.3, 30.9, 32.8, 34.4, 35.4 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000126",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000127",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000128",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000129",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000130",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000131",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000132",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.4,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.0、18.0、19.4、22.0、25.6、26.1、29.7、31.5、33.3、34.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.0,
+          18.0,
+          19.4,
+          22.0,
+          25.6,
+          26.1,
+          29.7,
+          31.5,
+          33.3,
+          34.1,
+          36.0,
+          38.5,
+          40.1,
+          41.0,
+          42.7,
+          44.7,
+          46.4,
+          50.9,
+          52.6,
+          53.0,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.0, 18.0, 19.4, 22.0, 25.6, 26.1, 29.7, 31.5, 33.3, 34.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000133",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 63.9,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.4、19.4、22.3、25.8、26.2、30.5、32.4、34.3、37.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.4,
+          19.4,
+          22.3,
+          25.8,
+          26.2,
+          30.5,
+          32.4,
+          34.3,
+          37.1,
+          37.9,
+          40.3,
+          40.7,
+          41.1,
+          46.0,
+          48.0,
+          51.9,
+          54.1,
+          56.0,
+          56.4,
+          60.2
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.4, 19.4, 22.3, 25.8, 26.2, 30.5, 32.4, 34.3, 37.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000134",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.1、19.5、22.3、25.7、26.2、29.9、31.8、33.4、34.2...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.1,
+          19.5,
+          22.3,
+          25.7,
+          26.2,
+          29.9,
+          31.8,
+          33.4,
+          34.2,
+          36.0,
+          38.5,
+          40.0,
+          40.7,
+          42.7,
+          45.2,
+          46.7,
+          51.1,
+          52.8,
+          53.1,
+          57.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.1, 19.5, 22.3, 25.7, 26.2, 29.9, 31.8, 33.4, 34.2 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000135",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000136",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000137",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000138",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000139",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000140",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000141",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000142",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000143",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000144",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000145",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000146",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000147",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000148",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000149",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000150",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000151",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000152",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000153",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000154",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000155",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.1,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.3、19.6、22.3、25.9、26.4、29.8、31.9、33.6、34.4...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.3,
+          19.6,
+          22.3,
+          25.9,
+          26.4,
+          29.8,
+          31.9,
+          33.6,
+          34.4,
+          36.2,
+          38.7,
+          40.5,
+          41.2,
+          42.9,
+          45.3,
+          47.0,
+          51.4,
+          53.3,
+          53.7,
+          57.4
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.3, 19.6, 22.3, 25.9, 26.4, 29.8, 31.9, 33.6, 34.4 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000156",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000157",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000158",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000159",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000160",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000161",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000162",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.1,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.1、19.3、22.0、25.6、26.0、29.9、31.8、33.4、34.4...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.1,
+          19.3,
+          22.0,
+          25.6,
+          26.0,
+          29.9,
+          31.8,
+          33.4,
+          34.4,
+          36.2,
+          38.7,
+          40.3,
+          41.2,
+          42.9,
+          45.3,
+          49.2,
+          51.5,
+          53.3,
+          53.7,
+          57.4
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.1, 19.3, 22.0, 25.6, 26.0, 29.9, 31.8, 33.4, 34.4 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000163",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000164",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000165",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000166",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000167",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000168",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000169",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000170",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.4,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.4、19.3、21.8、25.4、25.9、29.6、31.4、33.0、33.7...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.4,
+          19.3,
+          21.8,
+          25.4,
+          25.9,
+          29.6,
+          31.4,
+          33.0,
+          33.7,
+          35.9,
+          38.0,
+          39.8,
+          40.5,
+          42.3,
+          44.6,
+          46.3,
+          50.7,
+          52.6,
+          53.0,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.4, 19.3, 21.8, 25.4, 25.9, 29.6, 31.4, 33.0, 33.7 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000171",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000172",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000173",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000174",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000175",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.3、19.7、22.5、25.9、26.3、30.5、32.4、34.2、34.9...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.3,
+          19.7,
+          22.5,
+          25.9,
+          26.3,
+          30.5,
+          32.4,
+          34.2,
+          34.9,
+          36.7,
+          39.2,
+          40.9,
+          41.7,
+          43.4,
+          45.7,
+          49.6,
+          52.0,
+          53.5,
+          54.1,
+          57.9
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.3, 19.7, 22.5, 25.9, 26.3, 30.5, 32.4, 34.2, 34.9 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000176",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000177",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000178",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000179",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000180",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000181",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000182",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000183",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000184",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000185",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.5,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.2、18.3、19.3、22.3、25.7、26.1、29.9、31.8、33.4、33.9...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.2,
+          18.3,
+          19.3,
+          22.3,
+          25.7,
+          26.1,
+          29.9,
+          31.8,
+          33.4,
+          33.9,
+          36.2,
+          38.3,
+          40.1,
+          40.9,
+          42.6,
+          44.7,
+          48.6,
+          50.9,
+          52.5,
+          53.0,
+          56.7
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.2, 18.3, 19.3, 22.3, 25.7, 26.1, 29.9, 31.8, 33.4, 33.9 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000186",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000187",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000188",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000189",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.2、19.5、22.6、26.0、26.4、30.2、32.0、33.6、34.3...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.2,
+          19.5,
+          22.6,
+          26.0,
+          26.4,
+          30.2,
+          32.0,
+          33.6,
+          34.3,
+          36.6,
+          38.9,
+          40.3,
+          41.2,
+          42.9,
+          45.2,
+          46.7,
+          51.2,
+          52.9,
+          53.3,
+          57.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.2, 19.5, 22.6, 26.0, 26.4, 30.2, 32.0, 33.6, 34.3 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000190",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000191",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000192",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000193",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000194",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.7,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.4、18.1、19.3、22.3、25.7、26.1、29.9、31.7、33.3、34.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.4,
+          18.1,
+          19.3,
+          22.3,
+          25.7,
+          26.1,
+          29.9,
+          31.7,
+          33.3,
+          34.1,
+          35.9,
+          38.6,
+          40.1,
+          40.9,
+          42.6,
+          45.0,
+          48.8,
+          51.2,
+          52.8,
+          53.3,
+          57.0
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.4, 18.1, 19.3, 22.3, 25.7, 26.1, 29.9, 31.7, 33.3, 34.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000195",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000196",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000197",
+    "task": "assemble parts onto the task board",
+    "label": "合格",
+    "reasons": [],
+    "reasons_en": [],
+    "findings": [],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000198",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 61.0,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.3、17.1、18.1、19.4、22.3、25.7、26.1、29.9、31.8、33.4、34.3...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.3,
+          17.1,
+          18.1,
+          19.4,
+          22.3,
+          25.7,
+          26.1,
+          29.9,
+          31.8,
+          33.4,
+          34.3,
+          36.2,
+          38.9,
+          40.5,
+          41.0,
+          43.0,
+          45.3,
+          47.0,
+          51.5,
+          53.2,
+          53.6,
+          57.3
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.3, 17.1, 18.1, 19.4, 22.3, 25.7, 26.1, 29.9, 31.8, 33.4, 34.3 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  },
+  {
+    "episode_id": "rocochallenge2025__rocochallenge2026_Industrial_Assembly/ep000199",
+    "task": "assemble parts onto the task board",
+    "label": "存疑",
+    "reasons": [
+      "只有关节报了问题，没有第二个来源印证，要人看"
+    ],
+    "reasons_en": [
+      "Only joints reported a problem, with no second source to confirm it; a person should look"
+    ],
+    "findings": [
+      {
+        "check": "regrasp",
+        "cause": "二次抓取",
+        "t0": 0.0,
+        "t1": 60.6,
+        "score": 2.0,
+        "evidence": "右手夹爪开合了 23 次（张开、合上各算一次），同任务 200 条示范常见不超过 21 次，像是抓了不止一回；换档在 15.0、15.5、17.0、18.0、19.4、22.0、25.6、26.0、29.9、31.8、33.5、34.1...... 秒",
+        "hard": false,
+        "source": "joints",
+        "moments": [
+          15.0,
+          15.5,
+          17.0,
+          18.0,
+          19.4,
+          22.0,
+          25.6,
+          26.0,
+          29.9,
+          31.8,
+          33.5,
+          34.1,
+          36.4,
+          38.6,
+          40.5,
+          40.9,
+          42.8,
+          44.8,
+          46.5,
+          51.0,
+          52.5,
+          53.1,
+          56.8
+        ],
+        "evidence_en": "The right gripper switched between open and closed 23 times (each open or close counts once); the task's 200 episodes usually switch at most 21 times, so it looks like more than one grasp. Switches at 15.0, 15.5, 17.0, 18.0, 19.4, 22.0, 25.6, 26.0, 29.9, 31.8, 33.5, 34.1 ... s"
+      }
+    ],
+    "not_checked": {
+      "video_judges": "没跑视频评判（没有 GPU，或者缓存里没有结果）"
+    },
+    "not_checked_en": {
+      "video_judges": "The video judges did not run (no GPU, or no cached results)"
+    }
+  }
+]
